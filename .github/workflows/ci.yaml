@@ -4,7 +4,7 @@
 # DOCKER_USERNAME
 # DOCKER_PASSWORD
 # GH_TOKEN (Personal Access Token com permissões de escrita no repositório, para o passo de GitOps/commit automático)
-name: Pipeline CI/CD com GitOps (Backend, Simulator, Frontend)
+name: Pipeline CI/CD
 
 on:
   push:

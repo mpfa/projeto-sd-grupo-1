@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: PersistentVolumeClaim
+metadata:
+  name: gpx-pvc
+spec:
+  accessModes:
+    - ReadWriteMany        # Requer suporte RWX (NFS, StorageClass com RWX)
+  resources:
+    requests:
+      storage: 1Gi
+  # opcional: especificar storageClassName se o cluster exigir
+  # storageClassName: nfs-storage
