@@ -1,13 +1,13 @@
 Projeto de Sistemas Distribuidos.
 
-1ªFASE: 12/11/2025 CI/CD AUTOMÁTICO COM A APLICAÇÃO BASE (10%):
+1ª FASE: 12/11/2025 CI/CD AUTOMÁTICO COM A APLICAÇÃO BASE (10%):
 - Criar um repositório Github público e montar toda a pipeline de CI/CD para o cluster local no Docker Desktop.
 - Configurar Github Actions para atualizações no código e envio de imagens para o DockerHub.
 - Instalar e configurar Argo CD para publicação de novas versões no cluster local.
 - Simular uma corrida com poucos participantes com o broker instalado no cluster local.
 - Aplicação web com mapa e posição dos atletas.
 
-2ªFASE: 05/01/2026 IMPLEMENTAÇÃO FINAL COM MONITORIZAÇÃO (50%)
+2ª FASE: 05/01/2026 IMPLEMENTAÇÃO FINAL COM MONITORIZAÇÃO (50%)
 - Simular uma ou várias corridas com número variável de participantes.
 - Configurar o sistema (ou propor uma configuração) para alta disponibilidade e redimensionamento automático, baixa latência e alta resiliência.
 - O sistema deve funcionar localmente e no cluster geral cujo acesso será disponibilizado aos grupos.
