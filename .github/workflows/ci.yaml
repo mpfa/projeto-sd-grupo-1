@@ -65,7 +65,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot (GitOps)"
           git config user.email "actions@github.com"
-          git add k8s/backend/deployment.yaml
+          git add k8s/backend/back-deployment.yaml
           git commit -m "chore(cd): :rocket: Update backend image to ${{ steps.vars.outputs.TAG }}" || echo "No changes to commit"
           # Autenticação via HTTPS usando o GH_TOKEN
           git push
@@ -113,7 +113,7 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot (GitOps)"
           git config user.email "actions@github.com"
-          git add k8s/simulator/deployment.yaml
+          git add k8s/simulator/sim-deployment.yaml
           git commit -m "chore(cd): :rocket: Update simulator image to ${{ steps.vars.outputs.TAG }}" || echo "No changes to commit"
           git push
 
@@ -160,6 +160,6 @@ jobs:
         run: |
           git config user.name "GitHub Actions Bot (GitOps)"
           git config user.email "actions@github.com"
-          git add k8s/frontend/deployment.yaml
+          git add k8s/frontend/front-deployment.yaml
           git commit -m "chore(cd): :rocket: Update frontend image to ${{ steps.vars.outputs.TAG }}" || echo "No changes to commit"
           git push
