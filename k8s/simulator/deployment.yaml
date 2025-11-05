@@ -35,4 +35,4 @@ spec:
       volumes:
         - name: gpx-volume
           persistentVolumeClaim:
-            claimName: gpx-pvc
+            claimName: pvc-gpx
