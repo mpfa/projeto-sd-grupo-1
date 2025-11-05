@@ -1,9 +1,3 @@
-# Assumindo que o seu DockerHub Username é seuuserdockerhub...
-
-# Lembre-se de configurar os seguintes secrets no GitHub:
-# DOCKER_USERNAME
-# DOCKER_PASSWORD
-
 name: Pipeline CI/CD
 
 on:
